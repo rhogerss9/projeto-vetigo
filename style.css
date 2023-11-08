@@ -6,6 +6,13 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+
+:root{
+    --gray-800:var(--gray-800);
+   --gray-600:var(--gray-800);
+   --purple: #7c3aed;
+} 
+
 header{
     background-image: url(img/img.png);
     background-size: cover;
@@ -35,4 +42,31 @@ main{
 .descrição p{
     font-size: 0.8251rem;
     color: var(--gray-600);
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login label{
+    font-size: 0.875rem;
+    color: var(--gray-800);
+    font-weight: 600;
+}
+
+.login a{
+    color: var(--purple);
+    text-decoration: none;
+    font-size:0.875rem;
+    font-weight: 600;
+}
+.login a:hover{
+    text-decoration: underline;
 }
