@@ -120,7 +120,11 @@ main{
     display:none;
 }
 @media(min-widht:1000px){
-   header {
+   body{
+      display: flex;
+   }
+  
+    header {
     background: none;
     justify-content: flex-start;
     }
@@ -130,4 +134,12 @@ main{
     main{
         padding-inline: 7rem;
     }
+}
+.conteudo {
+    width: 100%;
+}
+
+.bg-desktop{
+    display: block;
+    width: 100%;
 }
